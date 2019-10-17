@@ -15,10 +15,10 @@ from keras.models import load_model                                     #to load
 
 # %% Importing pre-processed data
 
-X_train = np.load("Pre-processed_data//X_train.npy")                    #loaded X_train
-Y_train = np.load("Pre-processed_data//Y_train.npy")                    #loaded Y_train 
-X_test = np.load("Pre-processed_data//X_test.npy")                      #loaded X_test
-Y_test = np.load("Pre-processed_data//Y_test.npy")                      #loaded Y_train            
+X_train = np.load("X_train.npy")                                        #loaded X_train
+Y_train = np.load("Y_train.npy")                                        #loaded Y_train 
+X_test = np.load("X_test.npy")                                          #loaded X_test
+Y_test = np.load("Y_test.npy")                                          #loaded Y_train            
 
 # %% Creating the model
 
