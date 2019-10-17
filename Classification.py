@@ -9,7 +9,7 @@ import numpy as np                                                              
 # %% Creating necessary variables
 faceCascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')      #loading the face detector    
 
-emotion_model_path = "Trained_models\\Facial_expression_detector_CNN.h5"        #loading the trained model
+emotion_model_path = "The name of the model you want"                           #loading the trained model
 emotion_classifier = load_model(emotion_model_path, compile=False)
 
 EMOTIONS = ["Angry", "Disgust", "Scared", "Happy", "Sad", 
